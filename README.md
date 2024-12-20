@@ -2,7 +2,7 @@
 
 A lightweight Bash script designed to create and upload JSON configuration files for managing usernames on Meta Quest devices via ADB. This tool also updates the global username setting directly on the device.
 
-> ![WARNING] Changing the username will reset your game progress for all the games as you are no more "OldUsername" but "NewUsername", so it's like a completely new profile, be warned.
+> ! [WARNING] Changing the username will reset your game progress for some games as you are no more "OldUsername" but "NewUsername", so it's like a completely new profile, be warned, more info here: https://github.com/XargonWan/metaquest-username-changer/issues/1
 
 ## Features
 - Generates JSON files for multiple platforms (`user.json`, `vrmoo.cn.json`, etc.).
